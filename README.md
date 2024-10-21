@@ -1,7 +1,3 @@
-Here’s a structured `README.md` file for your GitHub project on "Product Recommendation System Using Sentiment Analysis":
-
----
-
 # Product Recommendation System Using Sentiment Analysis
 
 ## Overview
@@ -79,7 +75,3 @@ For any questions or issues, feel free to contact me:
 - **Name:** Om Subhash Shrivastav
 - **Email:** omshrivastav1005@gmail.com
 - **GitHub:** [Omshrivastav12](https://github.com/Omshrivastav12)
-
----
-
-You can copy and paste this content into your `README.md` file for a clear explanation of the project.
