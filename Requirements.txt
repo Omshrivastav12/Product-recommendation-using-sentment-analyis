@@ -1,0 +1,26 @@
+# Text processing and NLP libraries
+spacy==3.5.0
+en-core-web-sm==3.5.0  # Make sure to install via: python -m spacy download en_core_web_sm
+nltk==3.8.1
+textblob==0.17.1
+
+# Data manipulation and analysis libraries
+numpy==1.23.5
+pandas==1.5.3
+
+# Machine learning and feature extraction
+scikit-learn==1.2.2
+xgboost==1.7.6
+imblearn==0.10.1  # SMOTE
+
+# Visualization libraries
+matplotlib==3.6.2
+seaborn==0.12.1
+plotly==5.11.0
+wordcloud==1.8.2.2
+
+# Model saving and loading
+pickle-mixin==1.0.2
+
+# Additional utilities
+pprint==0.1
