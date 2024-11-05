@@ -50,7 +50,7 @@ This project builds a **Product Recommendation System** powered by **Sentiment A
 - **Python**: Core language for development.
 - **NLTK**: For text preprocessing, including tokenization and stemming.
 - **TF-IDF & Word2Vec**: Employed for feature extraction from text data.
-- **scikit-learn, XGBoost, AdaBoost**: Libraries used to train classifiers.
+- **scikit-learn, XGBoost**: Libraries used to train classifiers.
 - **Cosine Similarity**: Distance metric used in collaborative filtering.
 - **Collaborative Filtering**: Both user-based and item-based filtering approaches.
 
