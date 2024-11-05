@@ -1,77 +1,106 @@
-# Product Recommendation System Using Sentiment Analysis
+# 🛍️ Product Recommendation System Using Sentiment Analysis
 
 ## Overview
 
-This project focuses on building a **Product Recommendation System** that leverages **Sentiment Analysis** to enhance recommendation quality. The system was developed as part of a project at **IIT Roorkee**, utilizing Machine Learning (ML) and Natural Language Processing (NLP) techniques. The main objective is to recommend products more accurately by combining traditional collaborative filtering with sentiment scores derived from product reviews.
+This project builds a **Product Recommendation System** powered by **Sentiment Analysis** to provide highly accurate recommendations. Developed as part of a project at **IIT Roorkee**, it combines **collaborative filtering** with **sentiment scores** derived from product reviews, using Machine Learning (ML) and Natural Language Processing (NLP) techniques for enhanced recommendation quality.
 
-## Project Structure
+---
 
-- **Sentiment Analysis:** Used various ML classifiers to predict sentiment from product reviews.
-- **Recommendation System:** Built a recommendation system using both **user-based** and **item-based filtering** techniques.
-- **Sentiment Integration:** Incorporated sentiment scores into the final recommendation system to further improve accuracy.
+## 📚 Table of Contents
 
-## Features
+1. [🔍 Overview](#overview)
+2. [📂 Project Structure](#-project-structure)
+3. [✨ Features](#-features)
+4. [💻 Key Technologies](#-key-technologies)
+5. [📈 Model Performance](#-model-performance)
+6. [⚙️ How to Run the Project](#️-how-to-run-the-project)
+7. [🚀 Future Improvements](#-future-improvements)
+8. [📬 Contact](#-contact)
 
-- **Text Preprocessing:** Utilized the **Natural Language Toolkit (NLTK)** for cleaning and preprocessing text data.
-- **Feature Extraction:** Applied **TF-IDF** and **Word2Vec** techniques to extract features from a dataset with over **30,000 product reviews**.
-- **Machine Learning Models:** Implemented the following classifiers for sentiment analysis:
+---
+
+## 📂 Project Structure
+
+- **Sentiment Analysis**: Utilizes multiple ML classifiers to predict sentiment from product reviews.
+- **Recommendation System**: Built using **user-based** and **item-based filtering** methods.
+- **Sentiment Integration**: Combines sentiment scores with collaborative filtering for improved recommendations.
+
+---
+
+## ✨ Features
+
+- **Text Preprocessing**: Used the **Natural Language Toolkit (NLTK)** for text cleaning and preparation.
+- **Feature Extraction**: Extracted features using **TF-IDF** and **Word2Vec** from a dataset containing over **30,000 product reviews**.
+- **Machine Learning Models**: Applied several classifiers for sentiment analysis:
   - Logistic Regression (LR)
   - Random Forest (RF)
   - XGBoost (XGB)
   - AdaBoost (AB)
   - K-Nearest Neighbors (KNN)
-  - **Support Vector Machine (SVM)** achieved the best performance, fine-tuned using **5-fold cross-validation**.
-- **Recommender System:**
+  - **Support Vector Machine (SVM)** emerged as the top performer, optimized with **5-fold cross-validation**.
+- **Recommender System**:
   - Utilized **cosine similarity** for both user-user and item-item collaborative filtering.
-  - Final model selected was **User-User based collaborative filtering** with an **RMSE of 1.6**.
-  - Integrated sentiment scores into the recommendation engine for enhanced performance.
+  - Finalized **User-User collaborative filtering** with an **RMSE of 1.6**.
+  - Integrated sentiment scores into the recommendation engine for better accuracy.
 
-## Key Technologies
+---
 
-- **Python:** Programming language for model development and system integration.
-- **NLTK:** For text preprocessing (tokenization, stemming, etc.).
-- **TF-IDF & Word2Vec:** Feature extraction methods for text data.
-- **Sci-kit Learn, XGBoost, and AdaBoost:** ML libraries for training classifiers.
-- **Cosine Similarity:** Distance metric used in collaborative filtering.
-- **Collaborative Filtering:** User-based and item-based recommendation approaches.
+## 💻 Key Technologies
 
-## Model Performance
+- **Python**: Core language for development.
+- **NLTK**: For text preprocessing, including tokenization and stemming.
+- **TF-IDF & Word2Vec**: Employed for feature extraction from text data.
+- **scikit-learn, XGBoost, AdaBoost**: Libraries used to train classifiers.
+- **Cosine Similarity**: Distance metric used in collaborative filtering.
+- **Collaborative Filtering**: Both user-based and item-based filtering approaches.
 
-- **Sentiment Analysis:** SVM performed best, outperforming other classifiers.
-- **Recommendation System:** The user-user based collaborative filtering model with sentiment integration significantly improved recommendation accuracy.
+---
 
-## How to Run the Project
+## 📈 Model Performance
 
-1. **Clone the repository:**
+- **Sentiment Analysis**: SVM showed superior performance over other classifiers.
+- **Recommendation System**: The user-user based collaborative filtering model, enhanced with sentiment analysis, led to substantial improvement in recommendation accuracy.
+
+---
+
+## ⚙️ How to Run the Project
+
+1. **Clone the repository**:
    ```bash
    git clone https://github.com/Omshrivastav12/product-recommendation-sentiment-analysis.git
    cd product-recommendation-sentiment-analysis
    ```
 
-2. **Install required dependencies:**
+2. **Install dependencies**:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Run the sentiment analysis and recommendation scripts:**
+3. **Run the sentiment analysis and recommendation scripts**:
    ```bash
    python sentiment_analysis.py
    python recommendation_system.py
    ```
 
-4. **Modify and integrate your data:**
-   Replace `data.csv` with your dataset containing product reviews for recommendation.
+4. **Customize with your own data**:
+   - Replace `data.csv` with your own dataset of product reviews for customized recommendations.
 
-## Future Improvements
+---
 
-- Add deep learning models for better sentiment analysis accuracy.
-- Experiment with hybrid recommendation approaches combining content-based filtering and collaborative filtering.
-- Optimize runtime for larger datasets.
+## 🚀 Future Improvements
 
-## Contact
+- Add deep learning models to improve sentiment analysis accuracy.
+- Explore hybrid recommendation methods by combining content-based and collaborative filtering.
+- Optimize runtime for handling larger datasets efficiently.
 
-For any questions or issues, feel free to contact me:
+---
 
-- **Name:** Om Subhash Shrivastav
-- **Email:** omshrivastav1005@gmail.com
-- **GitHub:** [Omshrivastav12](https://github.com/Omshrivastav12)
+## 📬 Contact
+
+Feel free to reach out for questions or support:
+
+- **Name**: Om Subhash Shrivastav
+- **Email**: omshrivastav1005@gmail.com
+- **GitHub**: [Omshrivastav12](https://github.com/Omshrivastav12)
+
+Happy recommending! 🌟
